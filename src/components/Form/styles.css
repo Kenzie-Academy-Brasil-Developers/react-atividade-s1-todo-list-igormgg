@@ -1,0 +1,26 @@
+.formBox {
+  padding: 50px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+}
+
+.formBox input {
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.formBox button {
+  height: 25px;
+  background-color: gray;
+  margin-top: 5px;
+  border: none;
+  color: white;
+  font-family: inherit;
+}
+
+.formBox button:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}

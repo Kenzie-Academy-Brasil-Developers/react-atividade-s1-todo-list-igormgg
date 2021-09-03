@@ -1,0 +1,23 @@
+.todoBox {
+  /* border: 2px solid white; */
+}
+
+.todoBox li {
+  list-style-type: lower-greek;
+  margin-right: 20px;
+}
+
+.todoBox div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.todoBox button {
+  border: none;
+}
+
+.todoBox button:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}
